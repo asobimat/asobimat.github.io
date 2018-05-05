@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include header.html %}
+
+  <body>
+    {% include menu.html %}
+    <div class="content container">
+      <main class="page-content" aria-label="Content" style="padding-top: 15px;">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+  </body>
+
+</html>
