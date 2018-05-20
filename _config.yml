@@ -26,9 +26,10 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-
+plugins: [jekyll-feed]
+collections:
+  blog:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
